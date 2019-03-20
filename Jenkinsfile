@@ -1,7 +1,7 @@
 pipeline {
     agent any 
+    tool name: 'MAVEN_HOME', type: 'maven'
     stages {
-        tool name: 'MAVEN_HOME', type: 'maven'
         stage('Build') { 
             steps {
                 sh 'mvn install -Dmaven.test.skip=true' 
