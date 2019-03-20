@@ -7,6 +7,10 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
+                sh '''
+                #!/bin/bash
+                echo "hello world"
+                '''
                 sh 'mvn install -Dmaven.test.skip=true' 
             }
         }
