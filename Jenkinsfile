@@ -2,6 +2,7 @@ pipeline {
     agent any 
     tools {
         maven 'MAVEN_HOME'
+        git 'LocalGit'
         //name: 'MAVEN_HOME', type: 'maven'
     }
     stages {
