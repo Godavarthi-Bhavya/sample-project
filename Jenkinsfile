@@ -1,6 +1,9 @@
 pipeline {
     agent any 
-    tool name: 'MAVEN_HOME', type: 'maven'
+    tools {
+        maven 'MAVEN_HOME'
+        //name: 'MAVEN_HOME', type: 'maven'
+    }
     stages {
         stage('Build') { 
             steps {
