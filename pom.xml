@@ -87,7 +87,7 @@
 	<distributionManagement>
 	    <snapshotRepository>
 		<id>snapshots</id>
-		<name>admin-snapshots</name>
+              <name>38fc58ac0a84-snapshots</name>
 		<url>http://ip172-18-0-106-blf3ahe4315g008180qg-8081.direct.labs.play-with-docker.com/artifactory/libs-snapshot-local</url>
 	    </snapshotRepository>
 	</distributionManagement>
