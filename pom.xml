@@ -80,7 +80,7 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<sonar.host.url>http://ip172-18-0-17-blfoh3m4315g00bsaihg-9000.direct.labs.play-with-docker.com</sonar.host.url>
+				<sonar.host.url>http://ip172-18-0-36-blibjdkgl23000benhig-9000.direct.labs.play-with-docker.com</sonar.host.url>
 			</properties>
 		</profile>
 	</profiles>
@@ -88,7 +88,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>Snapshots</name>
-        <url>http://ip172-18-0-21-blfoh3m4315g00bsaihg-8081.direct.labs.play-with-docker.com/nexus/content/repositories/snapshots/</url>
+        <url>http://ip172-18-0-67-blibjdkgl23000benhig-8081.direct.labs.play-with-docker.com/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
